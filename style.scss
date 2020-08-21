@@ -7,21 +7,49 @@
         letter-spacing: 0;
         color: $fontColor !important;
     }
-    .active {
-        // &::after {
-        //     display: flex;
-        //     // margin: 0 auto;
-        //     flex-direction: column;
-        //     content: "";
-        //     width: 95px;
-        //     height: 2px;
-        //     background: $fontColor;
-        // }
-    }
+    // .active {
+    //     &::after {
+    //         display: flex;
+    //         // margin: 0 auto;
+    //         flex-direction: column;
+    //         content: "";
+    //         width: 95px;
+    //         height: 2px;
+    //         background: $fontColor;
+    //     }
+    // }
     .navbar-brand {
         img {
             width: 100px;
             height: 100px;
+        }
+    }
+}
+
+// Call out
+
+.call-out {
+    margin-top: 20px;
+    height: 570px;
+    .container-fluid {
+        height: 100%;
+
+        .bg-img {
+            overflow: hidden;
+            height: 100%;
+            background-image: url("./images/chairs-cloth-clouds-curtain-574011.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .overlay {
+            height: 100%;
+            background: rgba(0, 0, 0, 0.15);
+            @include contentCenter();
+            h1 {
+                color: white;
+            }
         }
     }
 }

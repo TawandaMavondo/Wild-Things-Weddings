@@ -24,6 +24,13 @@ p {
   letter-spacing: 0;
 }
 
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-left: 52px !important;
+    padding-right: 52px !important;
+  }
+}
+
 .navbar a {
   font-size: 22px;
   letter-spacing: 0;
@@ -33,5 +40,41 @@ p {
 .navbar .navbar-brand img {
   width: 100px;
   height: 100px;
+}
+
+.call-out {
+  margin-top: 20px;
+  height: 570px;
+}
+
+.call-out .container-fluid {
+  height: 100%;
+}
+
+.call-out .container-fluid .bg-img {
+  overflow: hidden;
+  height: 100%;
+  background-image: url("./images/chairs-cloth-clouds-curtain-574011.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.call-out .container-fluid .overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.call-out .container-fluid .overlay h1 {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,10 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .container-fluid {
+        padding-left: 52px !important;
+        padding-right: 52px !important;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
