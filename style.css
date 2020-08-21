@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  color: #161f27;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  letter-spacing: 0;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0;
+}
+
+.navbar a {
+  font-size: 22px;
+  letter-spacing: 0;
+  color: #161f27 !important;
+}
+
+.navbar .navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */

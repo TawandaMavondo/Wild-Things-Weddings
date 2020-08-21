@@ -1,0 +1,27 @@
+@import "partials/base";
+@import "partials/responsive";
+
+.navbar {
+    a {
+        font-size: 22px;
+        letter-spacing: 0;
+        color: $fontColor !important;
+    }
+    .active {
+        // &::after {
+        //     display: flex;
+        //     // margin: 0 auto;
+        //     flex-direction: column;
+        //     content: "";
+        //     width: 95px;
+        //     height: 2px;
+        //     background: $fontColor;
+        // }
+    }
+    .navbar-brand {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
