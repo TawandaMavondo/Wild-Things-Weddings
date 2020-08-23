@@ -170,4 +170,28 @@ p {
 .modal-full .uk-modal-body .row {
   margin-bottom: 90px;
 }
+
+footer {
+  margin-bottom: 60px;
+}
+
+footer a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0;
+  display: block;
+  margin: 20px 10px;
+  color: #161f27;
+}
+
+footer a:hover {
+  color: #161f27;
+}
+
+footer div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
