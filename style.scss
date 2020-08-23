@@ -53,3 +53,95 @@
         }
     }
 }
+
+// Motion Events
+.motion-events {
+    margin-top: 90px;
+    .card {
+        border: none;
+    }
+    .uk-card-body {
+        padding: 0 !important;
+    }
+    .uk-overlay-primary {
+        background: rgba(0, 0, 0, 0.15);
+        transition-property: background-color;
+        transition-duration: 500ms;
+    }
+    .uk-overlay {
+        p {
+            color: white;
+            font-size: 36px;
+            letter-spacing: 0;
+            opacity: 0;
+            transition-property: opacity;
+            transition-duration: 500ms;
+        }
+        &:hover {
+            p {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// stills-callout
+
+.stills-callout {
+    .container-fluid {
+        .bg-img {
+            background-image: url("./images/woman-in-white-wedding-dress-holding-hand-to-man-in-black-752842.jpg");
+        }
+    }
+}
+
+.stills-section {
+    margin: 90px 0;
+    .uk-card-body {
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+    .uk-overlay-primary {
+        background: rgba(0, 0, 0, 0);
+        transition-property: background-color;
+        transition-duration: 500ms;
+    }
+    .uk-overlay {
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: 500ms;
+        h2,
+        p {
+            color: white;
+        }
+    }
+    a {
+        &:hover {
+            .uk-overlay-primary {
+                background: rgba(0, 0, 0, 0.35);
+            }
+            .uk-overlay {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// Stills Modal
+
+.modal-full {
+    .uk-modal-title {
+        font-size: 20px;
+    }
+    .uk-modal-body {
+        .featured-img {
+            padding-bottom: 30px;
+        }
+        .meta {
+            margin: 60px 0px;
+        }
+        .row {
+            margin-bottom: 90px;
+        }
+    }
+}

@@ -77,4 +77,97 @@ p {
 .call-out .container-fluid .overlay h1 {
   color: white;
 }
+
+.motion-events {
+  margin-top: 90px;
+}
+
+.motion-events .card {
+  border: none;
+}
+
+.motion-events .uk-card-body {
+  padding: 0 !important;
+}
+
+.motion-events .uk-overlay-primary {
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.motion-events .uk-overlay p {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.motion-events .uk-overlay:hover p {
+  opacity: 1;
+}
+
+.stills-callout .container-fluid .bg-img {
+  background-image: url("./images/woman-in-white-wedding-dress-holding-hand-to-man-in-black-752842.jpg");
+}
+
+.stills-section {
+  margin: 90px 0;
+}
+
+.stills-section .uk-card-body {
+  padding: 0 !important;
+  margin-bottom: 30px;
+}
+
+.stills-section .uk-overlay-primary {
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.stills-section .uk-overlay {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.stills-section .uk-overlay h2,
+.stills-section .uk-overlay p {
+  color: white;
+}
+
+.stills-section a:hover .uk-overlay-primary {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.stills-section a:hover .uk-overlay {
+  opacity: 1;
+}
+
+.modal-full .uk-modal-title {
+  font-size: 20px;
+}
+
+.modal-full .uk-modal-body .featured-img {
+  padding-bottom: 30px;
+}
+
+.modal-full .uk-modal-body .meta {
+  margin: 60px 0px;
+}
+
+.modal-full .uk-modal-body .row {
+  margin-bottom: 90px;
+}
 /*# sourceMappingURL=style.css.map */
