@@ -12,6 +12,13 @@
         padding-left: 52px !important;
         padding-right: 52px !important;
     }
+    .clients-insight {
+        .uk-slider-items {
+            .quote {
+                max-width: 60%;
+            }
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

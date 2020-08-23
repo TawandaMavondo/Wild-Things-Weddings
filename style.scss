@@ -2,6 +2,7 @@
 @import "partials/responsive";
 
 .navbar {
+    background: $backgroundColor !important;
     a {
         font-size: 22px;
         letter-spacing: 0;
@@ -146,10 +147,28 @@
     }
 }
 
+// About page
+
+.about-heading,
+.about-main,.clients-insight {
+    margin-top: 20px;
+    padding: 30px 40px;
+    h2{
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+}
+.clients-insight {
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
 // Footer
 
 footer {
-    margin-bottom: 60px;
+    margin: 60px 0;
     a {
         font-family: "Montserrat", sans-serif;
         font-size: 22px;
@@ -158,11 +177,11 @@ footer {
         display: block;
         margin: 20px 10px;
         color: $fontColor;
-        &:hover{
-            color: $fontColor ;
+        &:hover {
+            color: $fontColor;
         }
     }
-    div{
+    div {
         justify-content: center;
     }
 }

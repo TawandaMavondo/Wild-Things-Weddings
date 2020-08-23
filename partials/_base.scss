@@ -1,6 +1,12 @@
+$fontColor: #161f27;
+$backgroundColor: #f7f7f7;
 
-$fontColor:#161f27;
-
+html {
+    background: $backgroundColor;
+}
+body {
+    background: $backgroundColor;
+}
 body {
     color: $fontColor;
 }

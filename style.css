@@ -1,3 +1,11 @@
+html {
+  background: #f7f7f7;
+}
+
+body {
+  background: #f7f7f7;
+}
+
 body {
   color: #161f27;
 }
@@ -29,6 +37,13 @@ p {
     padding-left: 52px !important;
     padding-right: 52px !important;
   }
+  .clients-insight .uk-slider-items .quote {
+    max-width: 60%;
+  }
+}
+
+.navbar {
+  background: #f7f7f7 !important;
 }
 
 .navbar a {
@@ -171,8 +186,25 @@ p {
   margin-bottom: 90px;
 }
 
+.about-heading,
+.about-main, .clients-insight {
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+
+.about-heading h2,
+.about-main h2, .clients-insight h2 {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.clients-insight img {
+  width: 25px;
+  height: 25px;
+}
+
 footer {
-  margin-bottom: 60px;
+  margin: 60px 0;
 }
 
 footer a {
