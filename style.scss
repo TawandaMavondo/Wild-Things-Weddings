@@ -8,6 +8,9 @@
         letter-spacing: 0;
         color: $fontColor !important;
     }
+    .navbar-toggler {
+        border: 0 ;
+    }
     // .active {
     //     &::after {
     //         display: flex;
@@ -32,6 +35,7 @@
 .call-out {
     margin-top: 20px;
     height: 570px;
+
     .container-fluid {
         height: 100%;
 
@@ -50,6 +54,7 @@
             @include contentCenter();
             h1 {
                 color: white;
+                font-size: 32px;
             }
         }
     }
@@ -150,21 +155,47 @@
 // About page
 
 .about-heading,
-.about-main,.clients-insight {
-    margin-top: 20px;
-    padding: 30px 40px;
-    h2{
+.about-main,
+.clients-insight,
+.lets-talk {
+    @include customSectionMargin();
+    h2 {
         font-weight: 300;
         margin-bottom: 30px;
     }
 }
 .clients-insight {
-    img{
+    img {
         width: 25px;
         height: 25px;
     }
 }
 
+// Contact
+.contact-call-out {
+    .container-fluid {
+        .bg-img {
+            background-image: url("./images/wedding-1779414.png");
+        }
+    }
+}
+
+.lets-talk {
+    margin-top: 85px;
+}
+
+.contacts {
+    @include customSectionMargin();
+    div.col-12 {
+        margin: 20px 0;
+    }
+    .col-md-3 {
+        padding-bottom: 30px;
+    }
+    .email-meta {
+        font-size: 18px;
+    }
+}
 // Footer
 
 footer {

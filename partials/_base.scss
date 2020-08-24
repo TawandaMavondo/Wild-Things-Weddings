@@ -6,6 +6,7 @@ html {
 }
 body {
     background: $backgroundColor;
+    overflow-x: hidden;
 }
 body {
     color: $fontColor;
@@ -34,4 +35,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@mixin customSectionMargin {
+    margin-top: 20px;
+    padding: 30px 40px;
 }

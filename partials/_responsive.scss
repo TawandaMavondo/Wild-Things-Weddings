@@ -8,15 +8,29 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .call-out {
+        .container-fluid {
+            .overlay {
+                h1 {
+                    font-size: 64px !important;
+                }
+            }
+        }
+    }
     .container-fluid {
-        padding-left: 52px !important;
-        padding-right: 52px !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
     }
     .clients-insight {
         .uk-slider-items {
             .quote {
                 max-width: 60%;
             }
+        }
+    }
+    .contacts {
+        .email-meta {
+            font-size: 22px !important;
         }
     }
 }
