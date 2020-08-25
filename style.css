@@ -198,6 +198,10 @@ p {
   margin-bottom: 90px;
 }
 
+.inner-imgs {
+  background: rgba(255, 255, 255, 0.98) !important;
+}
+
 .about-heading,
 .about-main,
 .clients-insight,
