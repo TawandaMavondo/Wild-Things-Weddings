@@ -42,9 +42,9 @@ p {
 }
 .show-video {
     img {
-        display: none;
+        display: none !important;
     }
     .uk-overlay {
-        display: none;
+        display: none !important;
     }
 }
