@@ -9,7 +9,7 @@
         color: $fontColor !important;
     }
     .navbar-toggler {
-        border: 0 ;
+        border: 0;
     }
     // .active {
     //     &::after {
@@ -65,6 +65,14 @@
     margin-top: 90px;
     .card {
         border: none;
+        height: 230px;
+    }
+    img {
+        position: relative;
+        z-index: 200;
+        padding: 0;
+        margin: 0;
+       
     }
     .uk-card-body {
         padding: 0 !important;
@@ -74,10 +82,20 @@
         transition-property: background-color;
         transition-duration: 500ms;
     }
+    iframe {
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
     .uk-overlay {
+        z-index: 200;
+
         p {
             color: white;
-            font-size: 36px;
+            font-size: 30px;
             letter-spacing: 0;
             opacity: 0;
             transition-property: opacity;
@@ -151,8 +169,8 @@
         }
     }
 }
-.inner-imgs{
-    background: rgba(255,255,255,0.98) !important;
+.inner-imgs {
+    background: rgba(255, 255, 255, 0.98) !important;
 }
 
 // About page

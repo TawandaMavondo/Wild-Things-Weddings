@@ -40,3 +40,11 @@ p {
     margin-top: 20px;
     padding: 30px 40px;
 }
+.show-video {
+    img {
+        display: none;
+    }
+    .uk-overlay {
+        display: none;
+    }
+}

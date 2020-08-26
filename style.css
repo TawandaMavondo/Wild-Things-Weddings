@@ -33,9 +33,20 @@ p {
   letter-spacing: 0;
 }
 
+.show-video img {
+  display: none;
+}
+
+.show-video .uk-overlay {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .call-out .container-fluid .overlay h1 {
     font-size: 64px !important;
+  }
+  .motion-events .card {
+    height: 380px !important;
   }
   .container-fluid {
     padding-left: 50px !important;
@@ -111,6 +122,14 @@ p {
 
 .motion-events .card {
   border: none;
+  height: 230px;
+}
+
+.motion-events img {
+  position: relative;
+  z-index: 200;
+  padding: 0;
+  margin: 0;
 }
 
 .motion-events .uk-card-body {
@@ -125,9 +144,22 @@ p {
           transition-duration: 500ms;
 }
 
+.motion-events iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.motion-events .uk-overlay {
+  z-index: 200;
+}
+
 .motion-events .uk-overlay p {
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 0;
   opacity: 0;
   -webkit-transition-property: opacity;

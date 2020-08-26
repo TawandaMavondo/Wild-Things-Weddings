@@ -1,8 +1,11 @@
 
+const displayVideoToggles = document.querySelectorAll('.display-video');
 
-
-
-let hideOverlay = (id) => {
-    const el = $('#')
-    el.classList.add('d-none');
+let displayVideo = (e) => {
+    e.path[2].classList.add('show-video');
 };
+
+displayVideoToggles.forEach(it => {
+    it.addEventListener('click', displayVideo);
+});
+
