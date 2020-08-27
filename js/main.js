@@ -9,3 +9,4 @@ displayVideoToggles.forEach(it => {
     it.addEventListener('click', (e) => displayVideo(e, it));
 });
 
+// UIkit.modal(document.querySelector('#mod')).show();
